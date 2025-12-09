@@ -1,0 +1,28 @@
+flask
+# Web Development
+# Digunakan untuk membuat Back-End API (/predict) dan menjalankan server web yang menerima 14 jawaban pengguna.
+
+joblib
+# Data Science
+# Digunakan untuk menyimpan (joblib.dump) dan memuat (joblib.load) model Machine Learning Anda (svm_model.pkl dan naive_bayes_model.pkl) ke dalam server Flask.
+
+pandas
+# Data Processing
+# Digunakan di Tahap 1, 2, dan 3 (01_phq9_labeling.py, dll.) untuk memuat data (.csv), membersihkan data, dan melakukan encoding.
+
+numpy
+# Data Science
+# Digunakan untuk operasi numerik yang mendasari library lain, seperti Pandas dan Scikit-learn, terutama saat memproses array data.
+
+scikit-learn
+# Machine Learning
+# Inti ML Anda. Digunakan untuk melatih model SVC (SVM) dan GaussianNB (Naive Bayes), serta untuk fungsi penting seperti train_test_split dan accuracy_score.
+
+matplotlib
+# Visualisasi
+# Digunakan di Tahap 4 (04_model_training_deploy.py) untuk membuat grafik perbandingan akurasi model Anda.
+
+
+# pip install -r requirements.txt
+# Perintah ini meminta pip untuk membaca setiap baris dalam file requirements.txt dan menginstal semua library yang terdaftar secara otomatis.
+
