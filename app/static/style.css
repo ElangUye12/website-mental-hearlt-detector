@@ -2,7 +2,7 @@
 :root {
   --primary-color: #dc143c; /* Crimson: Aksi utama, bahaya */
   --secondary-color: #007bff; /* Blue: Aksi sekunder, info */
-  --ai-color: #17a2b8; /* Cyan/Turquoise: Highlight AI */
+  --ai-color: #dc143c; /* Cyan/Turquoise: Highlight AI */
   --bg-color: #f8f9fa; /* Light Gray: Background umum */
   --card-bg: #ffffff; /* White: Background kartu */
   --text-color: #333;

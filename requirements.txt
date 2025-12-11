@@ -26,4 +26,3 @@ matplotlib
 # pip install -r requirements.txt
 # Perintah ini meminta pip untuk membaca setiap baris dalam file requirements.txt dan menginstal semua library yang terdaftar secara otomatis.
 
-gunicorn
